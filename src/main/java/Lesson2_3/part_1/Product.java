@@ -7,6 +7,7 @@ class Product {
     private String countryOfOrigin;
     private double price;
     private boolean isReserved;
+
     public Product(String name, String dateProduction, String producer, String countryOfOrigin, double price, boolean isReserved) {
         this.name = name;
         this.dateProduction = dateProduction;
@@ -15,6 +16,7 @@ class Product {
         this.price = price;
         this.isReserved = isReserved;
     }
+
     public void displayInformation() {
         System.out.println("Название: " + name);
         System.out.println("Дата производства: " + dateProduction);
