@@ -5,7 +5,6 @@ import lombok.experimental.SuperBuilder;
 
 @SuperBuilder
 @Getter
-
 public class Circle extends Shape {
     private double radius;
 

@@ -5,7 +5,6 @@ import lombok.experimental.SuperBuilder;
 
 @Getter
 @SuperBuilder
-
 public class Triangle extends Shape {
     private double sideA;
     private double sideB;

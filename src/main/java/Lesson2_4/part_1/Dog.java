@@ -1,15 +1,11 @@
 package Lesson2_4.part_1;
 
 class Dog extends Animal {
-    private static int dogCount = 0;
+    public static int dogCount = 0;
 
     public Dog(String name) {
         super(name);
         dogCount++;
-    }
-
-    public static int getDogCount() {
-        return dogCount;
     }
 
     @Override

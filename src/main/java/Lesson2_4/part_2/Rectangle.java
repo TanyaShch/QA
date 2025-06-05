@@ -5,7 +5,6 @@ import lombok.experimental.SuperBuilder;
 
 @SuperBuilder
 @Getter
-
 public class Rectangle extends Shape {
     private double width;
     private double height;

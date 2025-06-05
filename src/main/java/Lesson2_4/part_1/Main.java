@@ -19,8 +19,8 @@ public class Main {
         cat1.swim(10);
 
         System.out.println("Всего животных: " + Animal.getAnimalCount());
-        System.out.println("Собак: " + Dog.getDogCount());
-        System.out.println("Котов: " + Cat.getCatCount());
+        System.out.println("Собак: " + Dog.dogCount);
+        System.out.println("Котов: " + Cat.catCount);
 
         Bowl bowl = new Bowl(30);
         List<Cat> cats = new ArrayList<>();

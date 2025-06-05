@@ -2,17 +2,20 @@ package Lesson2_4.part_2;
 
 public class Main {
     public static void main(String[] args) {
+
         Circle circle = Circle.builder()
                 .radius(5.0)
                 .fullColor("Синий")
                 .borderColor("Красный")
                 .build();
+
         Rectangle rectangle = Rectangle.builder()
                 .width(10)
                 .height(7)
                 .fullColor("Белый")
                 .borderColor("Желтый")
                 .build();
+
         Triangle triangle = Triangle.builder()
                 .sideA(7)
                 .sideB(6)
